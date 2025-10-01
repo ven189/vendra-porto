@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="dark light">
+    <title>Portfolio | Vendra</title>
+    <meta name="description" content="Portfolio website Vendra Gumelar Okinda - Mahasiswa Inf                            
+                            
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,800&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Dynamic Sky System -->
+    <div class="minecraft-sky">
+        <!-- Day Sky Elements -->
+        <div class="day-sky">
+            <div class="sun"></div>
+            <div class="day-clouds">
+                <div class="cloud cloud-1"></div>
+                <div class="cloud cloud-2"></div>
+                <div class="cloud cloud-3"></div>
+                <div class="cloud cloud-4"></div>
+                <div class="cloud cloud-5"></div>
+                <div class="cloud cloud-6"></div>
+            </div>
+        </div>
+        
+        <!-- Night Sky Elements -->
+        <div class="night-sky">
+            <div class="moon"></div>
+            <div class="stars-container">
+                <div class="star star-1">⭐</div>
+                <div class="star star-2">✨</div>
+                <div class="star star-3">🌟</div>
+                <div class="star star-4">💫</div>
+                <div class="star star-5">⭐</div>
+                <div class="star star-6">✨</div>
+                <div class="star star-7">🌟</div>
+                <div class="star star-8">💫</div>
+                <div class="star star-9">⭐</div>
+                <div class="star star-10">✨</div>
+                <div class="star star-11">🌟</div>
+                <div class="star star-12">💫</div>
+            </div>
+            <div class="night-clouds">
+                <div class="cloud cloud-1"></div>
+                <div class="cloud cloud-2"></div>
+                <div class="cloud cloud-3"></div>
+            </div>
+        </div>
+    </div>
+
+    <a class="skip-link" href="#main">Lewati ke konten</a>
+
+    <header class="site-header">
+        <!-- Minecraft-style HUD -->
+        <div class="minecraft-hud">
+            <div class="health-bar">
+                <span class="hearts">❤❤❤❤❤❤❤❤❤❤</span>
+            </div>
+            <div class="xp-bar">
+                <div class="xp-fill"></div>
+                <span class="level">Level 25</span>
+            </div>
+        </div>
+        
+        <div class="container nav">
+            <a href="#" class="brand" aria-label="Beranda">
+                <span class="brand__dot"></span>
+                <span class="brand__text">Vendra Gumelar Okinda</span>
+            </a>
+            <button class="nav__toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Buka menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav id="primary-nav" class="nav__menu">
+                <a href="#about">Tentang</a>
+                <a href="#hobbies">Hobi</a>
+                <a href="#projects">Proyek</a>
+                <a href="#contact">Kontak</a>
+                <button class="theme-toggle" type="button" aria-pressed="false" title="Toggle theme">🗲 Theme</button>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="hero container" aria-label="Bagian pembuka">
+            <div class="hero__content">
+                <div class="profile-section">
+                    <div class="profile-image">
+                        <img src="assets/IMG_9275.PNG.jpg" alt="Vendra Gumelar Okinda - Profile Picture" class="profile-pic">
+                    </div>
+                    <div class="profile-text">
+                        <h1>Halo, saya <span class="accent">Vendra</span></h1>
+                        <p class="subtitle">Web Developer • UI Enthusiast • Lifelong Learner</p>
+                    </div>
+                </div>
+                <div class="cta">
+                    <a class="btn primary blocky" href="#projects">Lihat Proyek</a>
+                    <a class="btn ghost blocky" href="#contact">Hubungi Saya</a>
+                    <a class="btn ghost blocky" href="assets/Screenshot 2025-10-01 060904.png" download="CV-Vendra-Gumelar-Okinda.png">Download CV</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section container" aria-label="Tentang Saya">
+            <div class="about">
+                <h2 style="text-align: center; margin-bottom: 1.5rem; color: var(--accent); font-size: 2.5rem; font-weight: 700;">About Me!!!</h2>
+                
+                <div class="about-avatar" style="position: relative; width: 200px; height: 200px; margin: 0 auto 2rem auto;">
+                    <img src="assets/IMG_20250930_233136.jpg" alt="Vendra Gumelar Okinda - About Photo" class="about-pic" style="width: 100%; height: 100%; border-radius: 12px; object-fit: cover;">
+                </div>
+                
+                <div class="about__profile" style="display: block; max-width: 800px; margin: 0 auto;">
+                    <div class="about__text">
+                        <p>
+                            Saya adalah mahasiswa yang tertarik dengan pengembangan front-end dan menyukai tema Minecraft.
+                            Fokus pada web yang cepat, responsive, dan memiliki UX yang rapi.
+                        </p>
+                        
+                        <div class="personal-info">
+                            <div class="info-item">
+                                <span class="info-icon">🎂</span>
+                                <div class="info-content">
+                                    <strong>Tanggal Lahir</strong>
+                                    <span>9 Agustus 2005</span>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-icon">📍</span>
+                                <div class="info-content">
+                                    <strong>Tempat Tinggal</strong>
+                                    <span>Banyuwangi, Jawa Timur</span>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-icon">🎓</span>
+                                <div class="info-content">
+                                    <strong>Pendidikan</strong>
+                                    <span>Mahasiswa Sistem Informasi</span>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-icon">💼</span>
+                                <div class="info-content">
+                                    <strong>Status</strong>
+                                    <span>Student & Content Creator</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="technologies-section" style="text-align: center; margin: 2rem 0;">
+                            <h3 style="color: var(--accent); margin-bottom: 1rem; font-size: 1.2rem;">Technologies & Skills</h3>
+                            <ul class="tags" aria-label="Keahlian" style="display: flex; justify-content: center; flex-wrap: wrap; gap: 0.5rem; list-style: none; padding: 0; margin: 0;">
+                                <li style="background: var(--accent); color: var(--bg); padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; font-size: 0.9rem;">HTML</li>
+                                <li style="background: var(--accent); color: var(--bg); padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; font-size: 0.9rem;">CSS</li>
+                                <li style="background: var(--accent); color: var(--bg); padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; font-size: 0.9rem;">JavaScript</li>
+                                <li style="background: var(--accent); color: var(--bg); padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; font-size: 0.9rem;">Responsive UI</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="stats" aria-label="Statistik">
+                    <div class="stat">
+                        <span class="stat__num" data-count="3">0</span>
+                        <span class="stat__label">Certificates</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__num" data-count="1">0</span>
+                        <span class="stat__label">Years of Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__num" data-count="6">0</span>
+                        <span class="stat__label">Total Projects</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="pixel-divider" aria-hidden="true"></div>
+
+        <section id="hobbies" class="section container" aria-label="Hobi Saya">
+            <h2>Hobi & Minat</h2>
+            <p class="section-subtitle">Hal-hal yang saya sukai dan tekuni di waktu luang</p>
+            
+            <div class="hobbies-grid">
+                <div class="hobby-card minecraft-item">
+                    <div class="hobby-icon">🎮</div>
+                    <h3>Gaming</h3>
+                    <p>Bermain game, terutama Minecraft, untuk relaksasi dan inspirasi kreativitas.</p>
+                    <div class="hobby-tags">
+                        <span class="hobby-tag">Minecraft</span>
+                        <span class="hobby-tag">Strategy Games</span>
+                    </div>
+                </div>
+
+                <div class="hobby-card minecraft-item">
+                    <div class="hobby-icon">💻</div>
+                    <h3>Coding</h3>
+                    <p>Mulai menyukai coding semenjak tau ai dan berusaha untuk belajar lebih.</p>
+                    <div class="hobby-tags">
+                        <span class="hobby-tag">Web Development</span>
+                        <span class="hobby-tag">Open Source</span>
+                    </div>
+                </div>
+
+                <div class="hobby-card minecraft-item">
+                    <div class="hobby-icon">📚</div>
+                    <h3>Belajar</h3>
+                    <p>belajar untuk membuat desain dan editing video yang bagus sekaligus juga belajar coding.</p>
+                    <div class="hobby-tags">
+                        <span class="hobby-tag">Google</span>
+                        <span class="hobby-tag">Video/short video</span>
+                    </div>
+                </div>
+
+                <div class="hobby-card minecraft-item">
+                    <div class="hobby-icon">🎨</div>
+                    <h3>Design</h3>
+                    <p>Membuat UI/UX design, eksplorasi visual design, dan mencari inspirasi dari berbagai sumber kreatif.</p>
+                    <div class="hobby-tags">
+                        <span class="hobby-tag">UI/UX Design</span>
+                        <span class="hobby-tag">Visual Arts</span>
+                    </div>
+                </div>
+
+                <div class="hobby-card minecraft-item">
+                    <div class="hobby-icon">🎵</div>
+                    <h3>Musik</h3>
+                    <p>Mendengarkan berbagai genre musik, dari lo-fi untuk coding hingga soundtrack game untuk inspirasi.</p>
+                    <div class="hobby-tags">
+                        <span class="hobby-tag">Lo-fi Hip Hop</span>
+                        <span class="hobby-tag">Game Soundtracks</span>
+                    </div>
+                </div>
+
+                <div class="hobby-card minecraft-item">
+                    <div class="hobby-icon">✂️</div>
+                    <h3>Editing</h3>
+                    <p>Video editing dan content creation, mengubah raw footage menjadi storytelling yang menarik.</p>
+                    <div class="hobby-tags">
+                        <span class="hobby-tag">Video Editing</span>
+                        <span class="hobby-tag">Content Creation</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="pixel-divider" aria-hidden="true"></div>
+
+        <section id="projects" class="section container" aria-label="Portfolio">
+            <h2>Portfolio</h2>
+            <div class="tabs" role="tablist" aria-label="Kategori Portfolio">
+                <button class="tab is-active" role="tab" aria-selected="true" aria-controls="panel-projects" id="tab-projects">Projects</button>
+                <button class="tab" role="tab" aria-selected="false" aria-controls="panel-certificates" id="tab-certificates">Certificates</button>
+                <button class="tab" role="tab" aria-selected="false" aria-controls="panel-tech" id="tab-tech">Tech Stack</button>
+            </div>
+
+            <div class="tab-panels">
+                <div id="panel-projects" class="tab-panel is-active" role="tabpanel" aria-labelledby="tab-projects">
+                    <div class="grid">
+                        <article class="card minecraft-item project-with-image">
+                            <div class="project-image">
+                                <img src="assets/Screenshot 2025-10-01 032917.png" alt="Nextcloud Project Screenshot" class="project-screenshot">
+                                <div class="project-overlay">
+                                    <div class="item-icon">☁️</div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3>Membuat Project Nextcloud</h3>
+                                <p>Implementasi cloud storage pribadi menggunakan platform Nextcloud yang di-hosting di Hostinger. Proyek ini mencakup setup server, konfigurasi database, dan customization interface untuk kebutuhan personal cloud storage dan file sharing.</p>
+                                <div class="tech-stack-project">
+                                    <span class="tech-tag">Nextcloud</span>
+                                    <span class="tech-tag">Hostinger</span>
+                                </div>
+                                <div class="card__actions">
+                                    <a class="link" href="https://agilvendra.agilvendra.site/index.php/apps/dashboard/" target="_blank" rel="noopener">🔗 Live Demo</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="card minecraft-item project-with-image">
+                            <div class="project-image">
+                                <img src="assets/WhatsApp Image 2025-10-01 at 03.27.06_ee163292.jpg" alt="AI Aksara Bali Website" class="project-screenshot">
+                                <div class="project-overlay">
+                                    <div class="item-icon">🏛️</div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3>AI Aksara Bali Learning Website</h3>
+                                <p>Website pembelajaran interaktif untuk menulis aksara Bali dengan bantuan AI. Membantu pengguna belajar cara menulis aksara tradisional Bali dengan teknologi modern dan interface yang user-friendly.</p>
+                                <div class="tech-stack-project">
+                                    <span class="tech-tag">AI/ML</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                    <span class="tech-tag">HTML/CSS</span>
+                                    <span class="tech-tag">Interactive UI</span>
+                                </div>
+                                <div class="card__actions">
+                                    <a class="link" href="#" target="_blank" rel="noopener">🔗 Live Demo</a>
+                                    <a class="link" href="#" target="_blank" rel="noopener">📄 Source Code</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="card minecraft-item project-with-image">
+                            <div class="project-image">
+                                <img src="assets/Muwehehehe.jpg.jpg" alt="Content Creator @muwehehe_01 Profile" class="project-screenshot">
+                                <div class="project-overlay">
+                                    <div class="item-icon">📹</div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3>Content Creator Video Editor</h3>
+                                <p>Pekerjaan sebagai editor video untuk content creator @muwehehe_01 dengan 189.9K followers. Mengedit konten video berkualitas tinggi untuk platform media sosial dengan storytelling yang menarik dan engaging.</p>
+                                <div class="tech-stack-project">
+                                    <span class="tech-tag">CapCut</span>
+                                    <span class="tech-tag">Video Editing</span>
+                                    <span class="tech-tag">Motion Graphics</span>
+                                    <span class="tech-tag">Color Grading</span>
+                                </div>
+                                <div class="card__actions">
+                                    <a class="link" href="https://msha.ke/reman_01" target="_blank" rel="noopener">🔗 Creator Profile</a>
+                                    <a class="link" href="#" target="_blank" rel="noopener">📄 Portfolio</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="card minecraft-item project-with-image">
+                            <div class="project-image">
+                                <img src="assets/WhatsApp Image 2025-10-01 at 05.04.08_83f5a3bf.jpg" alt="Content Creator Reito274 TikTok Profile" class="project-screenshot">
+                                <div class="project-overlay">
+                                    <div class="item-icon">�</div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3>TikTok Video Editor for Reito274</h3>
+                                <p>Editor video untuk content creator @reito274 di TikTok dengan 235.3K likes. Menggunakan CapCut untuk menciptakan konten viral dan engaging dengan editing yang trendy dan sesuai algoritma platform.</p>
+                                <div class="tech-stack-project">
+                                    <span class="tech-tag">CapCut</span>
+                                    <span class="tech-tag">TikTok Editing</span>
+                                    <span class="tech-tag">Short-form Content</span>
+                                    <span class="tech-tag">Viral Content</span>
+                                </div>
+                                <div class="card__actions">
+                                    <a class="link" href="https://www.tiktok.com/@reito274" target="_blank" rel="noopener">� TikTok Profile</a>
+                                    <a class="link" href="https://youtu.be/yGOPwOaFUqg?si=PkKqX0IDIADKQHX3" target="_blank" rel="noopener">🎥 Sample Work</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="card minecraft-item project-with-image">
+                            <div class="project-image">
+                                <img src="assets/WhatsApp Image 2025-10-01 at 03.56.36_996bfc6f.jpg" alt="Logo Design Portfolio - Food Branding" class="project-screenshot">
+                                <div class="project-overlay">
+                                    <div class="item-icon">🎨</div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3>Food Logo & Sticker Design</h3>
+                                <p>Desain logo dan stiker untuk brand makanan termasuk Pukis, Salad Buah, dan Bakery. Menciptakan identitas visual yang menarik dan mudah diingat untuk produk kuliner dengan pendekatan desain yang modern dan eye-catching.</p>
+                                <div class="tech-stack-project">
+                                    <span class="tech-tag">Logo Design</span>
+                                    <span class="tech-tag">Branding</span>
+                                    <span class="tech-tag">Food Design</span>
+                                    <span class="tech-tag">Visual Identity</span>
+                                </div>
+                                <div class="card__actions">
+                                    <a class="link" href="#" target="_blank" rel="noopener">🎨 View Portfolio</a>
+                                    <a class="link" href="#" target="_blank" rel="noopener">📞 Contact for Design</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="card minecraft-item project-with-image">
+                            <div class="project-image">
+                                <img src="assets/WhatsApp Image 2025-10-01 at 03.52.13_25f3802f.jpg" alt="TikTok Account Building Project - @heysyte5" class="project-screenshot">
+                                <div class="project-overlay">
+                                    <div class="item-icon">📈</div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3>TikTok Account Growth Project</h3>
+                                <p>Project membangun akun TikTok @heysyte5 dari nol hingga mencapai 13K likes dan 103 pengikut. Mengelola strategi konten, consistency posting, dan engagement untuk organic growth di platform TikTok dengan fokus pada konten yang menarik.</p>
+                                <div class="tech-stack-project">
+                                    <span class="tech-tag">Content Strategy</span>
+                                    <span class="tech-tag">Social Media Growth</span>
+                                    <span class="tech-tag">TikTok Algorithm</span>
+                                    <span class="tech-tag">Community Building</span>
+                                </div>
+                                <div class="card__actions">
+                                    <a class="link" href="https://www.tiktok.com/@heysyte5" target="_blank" rel="noopener">🎵 Visit Account</a>
+                                    <a class="link" href="#" target="_blank" rel="noopener">📊 Growth Analytics</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div id="panel-certificates" class="tab-panel" role="tabpanel" aria-labelledby="tab-certificates" hidden>
+                    <div class="certificates-gallery">
+                        <div class="certificate-photo">
+                            <img src="assets/WhatsApp Image 2025-09-30 at 11.21.51_b528ecfd.jpg" alt="Sertifikat Memulai Pemrograman Dengan C" class="cert-image">
+                            <div class="cert-overlay">
+                                <h3>Memulai Pemrograman Dengan C</h3>
+                                <p>ID: L4PQ2Q4GOZO1</p>
+                                <a class="cert-link" href="https://www.dicoding.com/certificates/L4PQ2Q4GOZO1" target="_blank" rel="noopener">🔗 Verifikasi</a>
+                            </div>
+                        </div>
+                        
+                        <div class="certificate-photo">
+                            <img src="assets/dicoding-logo.jpg" alt="Sertifikat Memulai Pemrograman Dengan Java" class="cert-image">
+                            <div class="cert-overlay">
+                                <h3>Memulai Pemrograman Dengan Java</h3>
+                                <p>ID: 98XWO2KD9ZM3</p>
+                                <a class="cert-link" href="https://www.dicoding.com/certificates/98XWO2KD9ZM3" target="_blank" rel="noopener">🔗 Verifikasi</a>
+                            </div>
+                        </div>
+                        
+                        <div class="certificate-photo">
+                            <img src="assets/Screenshot 2025-10-01 053458.png" alt="Sertifikat Belajar Dasar Manajemen Proyek" class="cert-image">
+                            <div class="cert-overlay">
+                                <h3>Belajar Dasar Manajemen Proyek</h3>
+                                <p>ID: KEMPX09</p>
+                                <a class="cert-link" href="https://www.dicoding.com/certificates/KEMPX09" target="_blank" rel="noopener">🔗 Verifikasi</a>
+                            </div>
+                        </div>
+                        
+                        <div class="certificate-placeholder-photo">
+                            <div class="placeholder-content">
+                                <h3>🚀 More Coming Soon</h3>
+                                <p>Saya terus belajar dan akan menambahkan sertifikat baru!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="panel-tech" class="tab-panel" role="tabpanel" aria-labelledby="tab-tech" hidden>
+                    <div class="tech-stack-container">
+                        <div class="tech-category">
+                            <h3>💻 Programming Languages</h3>
+                            <div class="skill-list">
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <span class="skill-name">HTML</span>
+                                        <span class="skill-percentage">40%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 45%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <span class="skill-name">CSS</span>
+                                        <span class="skill-percentage">10%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 10%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <span class="skill-name">JavaScript</span>
+                                        <span class="skill-percentage">35%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 35%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <span class="skill-name">Python</span>
+                                        <span class="skill-percentage">30%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 30%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <span class="skill-name">SQL</span>
+                                        <span class="skill-percentage">25%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 25%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tech-category">
+                            <h3>🎨 Design & Editing Tools</h3>
+                            <div class="skill-list">
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <span class="skill-name">CapCut</span>
+                                        <span class="skill-percentage">95%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 95%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <span class="skill-name">Canva</span>
+                                        <span class="skill-percentage">90%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <span class="skill-name">Pixellab</span>
+                                        <span class="skill-percentage">85%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="pixel-divider" aria-hidden="true"></div>
+
+        <section id="contact" class="section container" aria-label="Kontak">
+            <h2>Contact Me</h2>
+            <p>Got a question? Send me a message, and I'll get back to you soon.</p>
+            <div class="contact">
+                <div class="contact__socials">
+                    <h3>Connect With Me</h3>
+                    <ul class="socials" aria-label="Sosial media">
+                        <li><a href="https://www.linkedin.com/in/vendra-okinda-753029388" target="_blank" rel="noopener">LinkedIn</a></li>
+                        <li><a href="https://www.instagram.com/pendro_1" target="_blank" rel="noopener">Instagram</a></li>
+                        <li><a href="https://www.tiktok.com/@heysyte5?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener">TikTok</a></li>
+                        <li><a href="https://www.youtube.com/@venzcraft99" target="_blank" rel="noopener">YouTube</a></li>
+                        <li><a href="https://github.com/username" target="_blank" rel="noopener">GitHub</a></li>
+                    </ul>
+                </div>
+                <form class="contact__form" action="#" method="post" onsubmit="return false" aria-label="Formulir kontak">
+                    <div class="form__row">
+                        <label for="name">Nama</label>
+                        <input type="text" id="name" name="name" placeholder="Nama Anda" required>
+                    </div>
+                    <div class="form__row">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="email@contoh.com" required>
+                    </div>
+                    <div class="form__row">
+                        <label for="message">Pesan</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Tulis pesan Anda..."></textarea>
+                    </div>
+                    <button class="btn primary blocky" type="submit">Kirim</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer__inner">
+            <p>© <span id="year"></span> Vendra. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <button id="toTop" class="to-top" aria-label="Kembali ke atas" hidden>↑</button>
+
+    <script src="script.js" defer></script>
+    <!-- Cursor image credit: Minecraft diamond sword reference: https://minecraft.fandom.com/wiki/Sword -->
+    <!-- Pastikan file assets/minecraft-diamond-sword.png tersedia untuk kursor khusus -->
+
+    
+    <button id="creeper" aria-label="Creeper" title="Creeper"></button>
+</body>
+</html>
+
